@@ -62,6 +62,7 @@ nav {
     padding: 1.3rem 0;
     box-shadow: 0 0 3px rgba(0,0,0,0.5);
     transition: box-shadow 0.3s ease-in-out;
+    font-size: 18px;
 }
 .btn.btn-primary:hover {
     box-shadow: 0 0 12px rgba(0,0,0,0.9);
@@ -89,4 +90,49 @@ nav {
 .featured p, li {
     line-height: 1.4;
     color: rgba(0,0,0,0.7);
+}
+
+.image-container img {
+    opacity: 0.7;
+    width: 100%;
+}
+
+.projects {
+    padding-bottom: 5.85rem;
+}
+
+.projects h1 {
+    margin: 20px 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #399bd1;
+}
+
+.by {
+    margin-bottom: 1rem;
+}
+
+.projects h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.trouble {
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.trouble div {
+    padding: 5.2rem 0;
+    margin: 0 auto;
+}
+
+.trouble h1 {
+    font-size: 2.5rem;
+    font-weight: bold; 
+}
+
+.trouble p {
+    max-width: 42rem;
+    margin: 1.4rem auto;
 }
